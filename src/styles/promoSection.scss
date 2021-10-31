@@ -1,0 +1,130 @@
+@use "./global.scss";
+
+#promo .container {
+  padding: 60px 0;
+}
+
+h2 {
+  color: var(--title);
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.card-promo {
+  background: var(--bg-card);
+  max-width: 352px;
+  border-radius: 24px;
+  margin-right: 32px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    button {
+      padding: 1.1rem 3.7rem;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      color: var(--text-el);
+      background: var(--bg-el);
+      margin-bottom: 42px;
+      transition: 0.5s;
+        &:hover {
+          filter: brightness(0.9);
+        }
+
+        a {
+          text-decoration: none;
+          color: var(--text-el);
+        }
+    }
+
+    span {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    span:last-child {
+      margin-bottom: 13.5px;
+    }
+}
+
+.title {
+  font-size: 2.1rem;
+  line-height: 1.7rem;
+  margin-top: 43px;
+  color: var(--text);
+
+    span {
+      text-transform: none !important;
+    }
+}
+
+.title-span {
+  font-size: 2.1rem;
+  line-height: 1.7rem;
+  margin-top: 43px;
+  color: var(--text);
+  text-transform: none !important;
+}
+
+.sub-title {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 1.3rem;
+  margin-bottom: 3px;
+
+    span {
+      text-decoration: line-through;
+    }
+}
+
+.new-price {
+  font-size: 1.3rem;
+}
+.card-stamp {
+  background: var(--bg-el);
+  width: 81px;
+  height: 81px;
+  border: 0;
+  border-radius: 100%;
+  position: absolute;
+  float: left;
+  top: 19px;
+  left: 14px;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--text-el);
+  text-align: center;
+
+    p {
+      font-size: 2.6rem;
+      font-weight: 700;
+      line-height: 1.7rem;
+      padding: 1.6rem 1rem 0 1.6rem;
+      margin-bottom: 4px;
+    }
+    span {
+      font-size: 1.7rem;
+    }
+}

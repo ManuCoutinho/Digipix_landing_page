@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="styles.scss" type="text/css" media="all" />
+  <title>Teste | Digipix</title>
+</head>
+<body>
+  <header>
+    <nav class="nav justify-content-center shadow-sm">
+      <ul class="nav-item d-flex ">
+        <li class="nav-link">
+          <a href="#" target="_blank"><img src="./src/assets/logo-meliuz.png" alt="logo Meliuz"></a>
+        </li>
+        <li class="nav-link">
+          <a href="#" target="_blank"><img src="./src/assets/logo-fr.svg" alt="logo FotoRegistro"/></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="home">    
+    <picture class="container-fluid" alt="banner principal">
+      <source media="(max-width: 380px)" srcset="./src/assets/mobile/banner-mobile.png">
+      <source media="(min-width: 1920px)" srcset="./src/assets/banner-desktop@2x.png">
+      <img src="./src/assets/banner-desktop.png" alt="banner principal" loading="lazy">
+    </picture>
+  </main>
+  <section id="promo">
+    <div class="container">
+      <h2>Ofertas em destaque:</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6 card-promo shadow p-3">
+          <div class="card-stamp card-stamp-responsive "><p>XX%</p><span>OFF</span></div>
+          <div class="row">
+            <picture class="col ">
+              <source media="(max-width: 768px)" srcset="./src/assets/mobile/book.png">
+              <img src="./src/assets/Img-book.png" alt="fotolivro classic" class="img-fluid" loading="lazy"/>                
+            </picture>
+            <div class="col col-sm-auto">
+              <p class="title">Fotolivro <span>Classic</span></p>
+                <p class="sub-title">(A5 quadrado)</p>
+                <p class="price">De <span>R$ xx,xx</span></p>
+                <p class="new-price">Por <span>R$ XX,XX</span> </p>
+                <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 card-promo shadow p-3">
+          <div class="card-stamp card-stamp-responsive"><p>XX%</p><span>OFF</span></div>
+          <div class="row">
+            <div class="col">
+              <img src="./src/assets/Img-fotos-leque.png" alt="pacote 100 fotos" class="img-fluid" loading="lazy"/>                
+            </div>
+            <div class="col col-sm-auto">
+              <p class="title">Pacote <span>100 Fotos</span></p>
+                <p class="sub-title">(10x15cm)</p>
+                <p class="price">De <span>R$ xx,xx</span></p>
+                <p class="new-price">Por <span>R$ XX,XX</span> </p>
+                <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="promo-carousel">
+    <div class="container-fluid">
+      <div class="container">
+        <h2>Demais ofertas:</h2>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+
+              <div class="card-promo shadow p-3 glide__slide">
+                <div class="card-stamp"><p>30%</p><span>OFF</span></div>
+                <div class="row">
+                  <div class="col-md-5 ">
+                    <img src="./src/assets/Img-geladeira.png" alt="Ímã Quadrado" loading="lazy"/>                
+                  </div>
+                  <div class="col-md-7">
+                    <p class="title">Ímã <span>Quadrado</span></p>
+                      <p class="sub-title">Kit com 9 un</p>
+                      <p class="price">De <span>R$ xx,xx</span></p>
+                      <p class="new-price">Por <span>R$ XX,XX</span> </p>
+                      <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+                  </div>
+                </div>
+              </div> 
+              
+              <div class="card-promo shadow p-3 glide__slide">
+                <div class="card-stamp"><p>XX%</p><span>OFF</span></div>
+                <div class="row">
+                  <div class="col-md-5 ">
+                    <img src="./src/assets/Img-poster.png" alt="Pôster Premium" loading="lazy"/>                
+                  </div>
+                  <div class="col-md-7">
+                    <p class="title">Pôster </p> <span class="premium">Premium</span>                     
+                      <p class="price">De <span>R$ xx,xx</span></p>
+                      <p class="new-price">Por <span>R$ XX,XX</span> </p>
+                      <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+                  </div>
+                </div>
+              </div> 
+
+              <div class="card-promo shadow p-3 glide__slide">
+                <div class="card-stamp"><p>XX%</p><span>OFF</span></div>
+                <div class="row">
+                  <div class="col-md-5 ">
+                    <img src="./src/assets/Img-calendar.png" alt="Calendário de mesa 2022" loading="lazy"/>                
+                  </div>
+                  <div class="col-md-7">
+                    <p class="title">Calendário de Mesa <span>2022</span></p>                      
+                      <p class="price">De <span>R$ xx,xx</span></p>
+                      <p class="new-price">Por <span>R$ XX,XX</span> </p>
+                      <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+                  </div>
+                </div>
+              </div> 
+
+              <div class="card-promo shadow p-3 glide__slide">
+                <div class="card-stamp"><p>XX%</p><span>OFF</span></div>
+                <div class="row">
+                  <div class="col-md-5 ">
+                    <img src="./src/assets/Img-pic.png" alt="Foto Retrô" loading="lazy"/>                
+                  </div>
+                  <div class="col-md-7">
+                    <p class="title">Foto <span>Retrô</span></p>
+                      <p class="sub-title">Kit com 20 un</p>
+                      <p class="price">De <span>R$ xx,xx</span></p>
+                      <p class="new-price">Por <span>R$ XX,XX</span> </p>
+                      <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <a href="#" class="glide__arrow glide__arrow--left" data-glide-dir="<"><img src="./src/assets/seta.svg" alt="seta indicadora"></a>
+            <a href="#" class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="./src/assets/seta.svg" alt="seta indicadora"></a>
+          </div>
+        </div>        
+
+<!--mobile-->
+      <div class="d-md-none row d-flex justify-content-center">
+        <div class="card__responsive shadow p-3">
+          <div class="card-stamp-responsive"><p>XX%</p><span>OFF</span></div>
+          <div class="row">
+            <div class="col">
+              <img src="./src/assets/Img-pic.png" alt="Foto Retrô" loading="lazy"/>                
+            </div>
+            <div class="col">
+              <p class="title-responsive">Foto <span class="title-span-responsive-responsive">Retrô</span></p>
+                <p class="sub-title-responsive"> Kit com 20 un</p>
+                <p class="price-responsive">De <span>R$ xx,xx</span></p>
+                <p class="new-price-responsive">Por <span>R$ XX,XX</span> </p>
+                <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+            </div>
+          </div>
+        </div>
+        
+        <div class="card__responsive shadow p-3">
+          <div class="card-stamp-responsive"><p>65%</p><span>OFF</span></div>
+          <div class="row">
+            <div class="col">
+              <img src="./src/assets/Img-poster.png" alt="Pôster Premium" loading="lazy"/>                
+            </div>
+            <div class="col">
+              <p class="title-responsive">Pôster </p> <span class="title-span-responsive">Premium</span>                     
+                <p class="price-responsive">De <span>R$ xx,xx</span></p>
+                <p class="new-price-responsive">Por <span>R$ XX,XX</span> </p>
+                <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+            </div>
+          </div>
+        </div> 
+  
+        <div class="card__responsive shadow p-3">
+          <div class="card-stamp-responsive"><p>65%</p><span>OFF</span></div>
+          <div class="row">
+            <div class="col">
+              <img src="./src/assets/Img-geladeira.png" alt="Ímã Quadrado" loading="lazy"/>                
+            </div>
+            <div class="col">
+              <p class="title-responsive">Ímã <span class="title-span-responsive">Quadrado</span></p>
+                <p class="sub-title-responsive">Kit com 9 un</p>
+                <p class="price-responsive">De <span>R$ xx,xx</span></p>
+                <p class="new-price-responsive">Por <span>R$ XX,XX</span> </p>
+                <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+            </div>
+          </div>
+        </div> 
+  
+        <div class="card__responsive shadow p-3">
+          <div class="card-stamp-responsive"><p>65%</p><span>OFF</span></div>
+          <div class="row">
+            <div class="col">
+              <img src="./src/assets/Img-calendar.png" alt="Calendário de mesa 2022" loading="lazy"/>                
+            </div>
+            <div class="col">
+              <p class="title-responsive">Calendário de Mesa <span>2022</span></p>                      
+                <p class="price-responsive">De <span>R$ xx,xx</span></p>
+                <p class="new-price-responsive">Por <span>R$ XX,XX</span> </p>
+                <button type="button" class="btn rounded-pill"><a href="#">eu quero!</a></button>                  
+            </div>
+          </div>
+        </div> 
+      </div>
+
+
+      </div>
+    </div>
+  </section>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
