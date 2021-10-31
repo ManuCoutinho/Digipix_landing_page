@@ -1,37 +1,10 @@
-@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+@use './common';
+@use './header';
+@use './mainSection';
+@use './promoSection';
+@use './promoCarouselSection';
+@use './mobile';
+@use 'node_modules/@glidejs/glide/src/assets/sass/glide.core.scss';
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-:root {
-  --title: #000000;
-  --bg-card: #f3f0f7;
-  --elements: #fc525f;
-  --bg-el: #fd5766;
-  --text: #262626;
-  --bg-sec: #e9e5f0;
-  --text-el: #ffffff;
-  --title-mobile: #fa425de6;
-}
 
-body,
-html {
-  font-family: "Montserrat", sans-serif;
-  background: #ffffff;
-  font-size: 62%;
-}
-
-.container-fluid,
-.container,
-.row,
-.col-md-6,
-.col-md-7 {
-  padding: 0;
-}
-
-p {
-  margin: 0;
-}
