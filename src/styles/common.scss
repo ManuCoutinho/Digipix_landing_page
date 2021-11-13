@@ -1,26 +1,26 @@
 @use "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
-}yar
+  margin: 0;
+  padding: 0;
+}
 
 :root {
-  --title: #000000;
   --bg-card: #f3f0f7;
-  --elements: #fc525f;
-  --bg-el: #fd5766;
-  --text: #262626;
   --bg-sec: #e9e5f0;
+  --bg-el: #fd5766;
+  --elements: #fc525f;
+  --text: #262626;
   --text-el: #ffffff;
+  --title: #000000;
   --title-mobile: #fa425de6;
 }
 
 body,
 html {
-  font-family: "Montserrat", sans-serif;
   background: #ffffff;
+  font-family: "Montserrat", sans-serif;
   font-size: 62%;
 }
 

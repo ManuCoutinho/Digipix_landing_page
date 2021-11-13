@@ -1,2 +1,4 @@
-import './style.scss';
+import "sass";
+import "./style.scss";
+
 

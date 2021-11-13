@@ -6,19 +6,19 @@
 
 h2 {
   color: var(--title);
-  text-align: center;
   font-size: 2.8rem;
-  line-height: 3.4rem;
   font-weight: 700;
+  line-height: 3.4rem;
   margin-top: 60px;
+  text-align: center;
 }
 
 .card-promo {
   background: var(--bg-card);
-  max-width: 352px;
   border-radius: 24px;
   margin-right: 32px;
   margin-top: 20px;
+  max-width: 352px;
   position: relative;
   text-align: center;
   z-index: 1;
@@ -31,15 +31,15 @@ h2 {
     }
 
     button {
-      padding: 1.1rem 3.7rem;
-      font-size: 1.5rem;
-      line-height: 1.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      text-align: center;
-      color: var(--text-el);
       background: var(--bg-el);
+      color: var(--text-el);
+      font-size: 1.5rem;
+      font-weight: 700;
       margin-bottom: 42px;
+      padding: 1.1rem 3.7rem;
+      line-height: 1.9rem;
+      text-align: center;
+      text-transform: uppercase;
       transition: 0.5s;
         &:hover {
           filter: brightness(0.9);
@@ -62,10 +62,10 @@ h2 {
 }
 
 .title {
+  color: var(--text);
   font-size: 2.1rem;
   line-height: 1.7rem;
   margin-top: 43px;
-  color: var(--text);
 
     span {
       text-transform: none !important;
@@ -73,10 +73,10 @@ h2 {
 }
 
 .title-span {
+  color: var(--text);
   font-size: 2.1rem;
   line-height: 1.7rem;
   margin-top: 43px;
-  color: var(--text);
   text-transform: none !important;
 }
 
@@ -99,20 +99,20 @@ h2 {
 }
 .card-stamp {
   background: var(--bg-el);
-  width: 81px;
-  height: 81px;
   border: 0;
   border-radius: 100%;
-  position: absolute;
   float: left;
-  top: 19px;
+  height: 81px;
+  position: absolute;
   left: 14px;
+  top: 19px;
+  width: 81px;
   z-index: 10;
 
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   color: var(--text-el);
   text-align: center;
